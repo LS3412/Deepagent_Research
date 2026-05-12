@@ -1,0 +1,66 @@
+┌──────────────────────────────────────────────────────────────────┐
+│                     USER INTERACTION                             │
+├──────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  1. User opens Streamlit app                                     │
+│     (web interface in browser)                                   │
+│        ↓                                                         │
+│  2. Types search query:                                          │
+│     "gaming laptop with RTX under $2000"                         │
+│        ↓                                                         │
+│  3. Clicks "Search" button                                       │
+│        ↓                                                         │
+│  ╔════════════════════════════════════════════╗                │
+│  ║   DEEP AGENTS ORCHESTRATION (Backend)      ║                │
+│  ╠════════════════════════════════════════════╣                │
+│  ║                                             ║                │
+│  ║  AGENT 1: Intent Parser                    ║                │
+│  ║  ├─ Reads: "gaming laptop RTX under $2000"║                │
+│  ║  ├─ Extracts: Category=Laptops, Price=$2000,│               │
+│  ║  │             Keywords=gaming+RTX         ║                │
+│  ║  └─ Calculates: Confidence=75%             ║                │
+│  ║       ↓                                     ║                │
+│  ║  AGENT 2: Vector Searcher                  ║                │
+│  ║  ├─ Converts query to vector               ║                │
+│  ║  ├─ Searches Weaviate database             ║                │
+│  ║  ├─ Applies filters (category + price)     ║                │
+│  ║  └─ Returns: 10 products with scores       ║                │
+│  ║       ↓                                     ║                │
+│  ║  AGENT 3: Result Analyzer                  ║                │
+│  ║  ├─ Checks data quality (90% complete)     ║                │
+│  ║  ├─ Verifies ranking makes sense           ║                │
+│  ║  └─ Suggests improvements                  ║                │
+│  ║       ↓                                     ║                │
+│  ║  AGENT 4: Search Critic                    ║                │
+│  ║  ├─ Validates results                      ║                │
+│  ║  ├─ Checks filters actually applied        ║                │
+│  ║  ├─ Confirms no overpriced items           ║                │
+│  ║  └─ Approves/rejects results               ║                │
+│  ║       ↓                                     ║                │
+│  ║  AGENT 5: Lead Agent (Orchestrator)        ║                │
+│  ║  ├─ Calls all 4 agents                     ║                │
+│  ║  ├─ Collects results + reasoning           ║                │
+│  ║  └─ Packages final response                ║                │
+│  ║       ↓                                     ║                │
+│  ║  Returns: SearchResponse                   ║                │
+│  ║  {                                          ║                │
+│  ║    "results": [10 products],                ║                │
+│  ║    "confidence": 75%,                       ║                │
+│  ║    "quality_score": 91%,                    ║                │
+│  ║    "agent_trace": [full reasoning]          ║                │
+│  ║  }                                          ║                │
+│  ╚════════════════════════════════════════════╝                │
+│        ↓                                                         │
+│  4. Results displayed beautifully:                              │
+│     ✓ 10 product cards                                          │
+│     ✓ Price, rating, specs                                      │
+│     ✓ 👍/👎 feedback buttons                                   │
+│     ✓ Confidence badge (🟢 High)                                │
+│     ✓ Full reasoning from all 4 agents                          │
+│        ↓                                                         │
+│  5. User clicks 👍 on best match                                │
+│        ↓                                                         │
+│  6. Feedback saved to metrics/feedback.jsonl                    │
+│     (used to improve future searches)                           │
+│                                                                  │
+└──────────────────────────────────────────────────────────────────┘
