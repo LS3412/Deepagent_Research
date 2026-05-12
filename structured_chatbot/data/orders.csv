@@ -1,0 +1,81 @@
+order_id,order_date,customer_name,customer_email,customer_region,status,priority,total_amount,shipping_method
+ORD001,2025-01-05,Acme Corp,orders@acme.com,Northeast,Delivered,Standard,1249.96,Ground
+ORD002,2025-01-08,TechStart Inc,purchasing@techstart.com,West,Delivered,Express,899.99,Air
+ORD003,2025-01-10,City Schools District,supply@cityschools.edu,Midwest,Delivered,Standard,299.70,Ground
+ORD004,2025-01-14,Metro Hospital,procurement@metrohospital.com,Southeast,Delivered,Express,449.95,Air
+ORD005,2025-01-18,BuildRight Construction,orders@buildright.com,South,Delivered,Standard,374.91,Ground
+ORD006,2025-01-22,Sunrise Office Park,admin@sunrisepark.com,Northeast,Delivered,Standard,189.88,Ground
+ORD007,2025-01-25,DataFlow Systems,it@dataflow.com,West,Delivered,Standard,2099.92,Ground
+ORD008,2025-01-28,Green Valley School,supplies@greenvalley.edu,Midwest,Delivered,Standard,149.85,Ground
+ORD009,2025-02-03,Harbor Logistics,warehouse@harborlogistics.com,Southeast,Delivered,Express,739.96,Air
+ORD010,2025-02-06,Peak Performance Gym,admin@peakgym.com,West,Delivered,Standard,449.92,Ground
+ORD011,2025-02-10,Global Imports Ltd,purchasing@globalimports.com,Northeast,Delivered,Standard,1799.96,Ground
+ORD012,2025-02-12,Safety Solutions Co,orders@safetysolutions.com,South,Delivered,Express,419.85,Air
+ORD013,2025-02-15,Riverside Manufacturing,supply@riverside.com,Midwest,Delivered,Standard,559.95,Ground
+ORD014,2025-02-18,Coastal Retail Group,orders@coastalretail.com,Southeast,Shipped,Standard,249.94,Ground
+ORD015,2025-02-20,North Star Academy,purchasing@northstar.edu,Northeast,Shipped,Standard,149.88,Ground
+ORD016,2025-02-22,SkyHigh Aerospace,procurement@skyhigh.com,West,Shipped,Express,1799.94,Air
+ORD017,2025-02-25,Valley Medical Center,supply@valleymed.com,Midwest,Shipped,Express,299.85,Air
+ORD018,2025-02-27,Urban Construction Co,orders@urbanconst.com,South,Processing,Standard,524.87,Ground
+ORD019,2025-03-01,Pacific Tech Group,it@pacifictech.com,West,Processing,Standard,1349.95,Ground
+ORD020,2025-03-03,Eastside Community College,purchasing@eastside.edu,Northeast,Processing,Standard,779.75,Ground
+ORD021,2025-03-05,Summit Sports Complex,admin@summitsports.com,Midwest,Processing,Standard,249.91,Ground
+ORD022,2025-03-07,Delta Distribution,orders@deltadist.com,South,Processing,Express,699.93,Air
+ORD023,2025-03-10,Clearwater Hotels,purchasing@clearwater.com,Southeast,Pending,Standard,899.97,Ground
+ORD024,2025-03-12,Northern Lights Corp,supply@northernlights.com,Northeast,Pending,Standard,449.91,Ground
+ORD025,2025-03-13,Midtown Offices,admin@midtownoffices.com,Midwest,Pending,Standard,189.86,Ground
+ORD026,2025-03-14,Westside University,procurement@westsideuni.edu,West,Pending,Express,2699.91,Air
+ORD027,2025-03-15,Gulf Industries,orders@gulfindustries.com,South,Pending,Standard,374.88,Ground
+ORD028,2025-01-12,Premier Facilities,supply@premierfacilities.com,Northeast,Cancelled,Standard,349.99,Ground
+ORD029,2025-02-05,FastGrow Startup,it@fastgrow.com,West,Cancelled,Express,1199.97,Air
+ORD030,2025-03-02,Inland Builders,orders@inlandbuilders.com,Midwest,Cancelled,Standard,269.94,Ground
+ORD031,2025-01-16,Sunrise Tech Park,it@sunrisetech.com,West,Delivered,Standard,1099.93,Ground
+ORD032,2025-01-17,Blue Ridge Manufacturing,orders@blueridge.com,South,Delivered,Standard,394.92,Ground
+ORD033,2025-01-19,Harbor View Medical,supply@harbormed.com,Southeast,Delivered,Express,539.94,Air
+ORD034,2025-01-21,Mountain State University,procurement@msu.edu,Midwest,Delivered,Standard,249.87,Ground
+ORD035,2025-01-23,Pioneer Logistics LLC,orders@pioneerlog.com,Northeast,Delivered,Standard,699.93,Ground
+ORD036,2025-01-26,Titan Construction Inc,orders@titanconstruct.com,South,Delivered,Standard,419.88,Ground
+ORD037,2025-01-29,Silver Lake Hotels,purchasing@silverlake.com,West,Delivered,Express,1349.97,Air
+ORD038,2025-01-31,East Bay School District,supply@eastbayschools.edu,West,Delivered,Standard,199.83,Ground
+ORD039,2025-02-04,Crown Office Solutions,orders@crownofc.com,Northeast,Delivered,Standard,449.90,Ground
+ORD040,2025-02-07,Pacific Safety Products,orders@pacsafety.com,West,Delivered,Express,624.88,Air
+ORD041,2025-02-09,Heritage Manufacturing,supply@heritage.com,Midwest,Delivered,Standard,899.99,Ground
+ORD042,2025-02-11,Coastal Medical Group,orders@coastalmed.com,Southeast,Delivered,Express,299.95,Air
+ORD043,2025-02-13,Northwest Trading Co,purchasing@nwtrade.com,West,Delivered,Standard,1799.94,Ground
+ORD044,2025-02-14,Metro Distribution Hub,orders@metrodist.com,Northeast,Delivered,Standard,579.87,Ground
+ORD045,2025-02-16,Capital City Offices,admin@capitalcity.com,Midwest,Delivered,Standard,224.85,Ground
+ORD046,2025-02-19,Sunset Retail Chain,supply@sunsetretail.com,West,Shipped,Standard,1099.95,Ground
+ORD047,2025-02-21,Green Mountain Corp,orders@greenmtn.com,Northeast,Shipped,Express,399.93,Air
+ORD048,2025-02-23,Atlas Industrial Group,orders@atlasindustrial.com,South,Shipped,Standard,724.89,Ground
+ORD049,2025-02-24,Oceanside Resorts Ltd,purchasing@oceanside.com,Southeast,Shipped,Express,1199.96,Air
+ORD050,2025-02-26,Midwest Builders Group,orders@midwestbuilders.com,Midwest,Shipped,Standard,499.90,Ground
+ORD051,2025-02-28,Valley View Schools,supply@valleyview.edu,West,Shipped,Standard,179.88,Ground
+ORD052,2025-03-01,Northern Plains Co,orders@northernplains.com,Midwest,Shipped,Standard,899.96,Ground
+ORD053,2025-03-04,Lakeshore Medical Center,supply@lakeshore.com,Midwest,Processing,Express,449.94,Air
+ORD054,2025-03-05,Empire State Supplies,orders@empiresupply.com,Northeast,Processing,Standard,1099.93,Ground
+ORD055,2025-03-06,Southern Star Corp,orders@southernstar.com,South,Processing,Standard,374.88,Ground
+ORD056,2025-03-08,Desert Tech Solutions,it@deserttech.com,West,Processing,Standard,1349.98,Ground
+ORD057,2025-03-09,Rocky Mountain Retail,orders@rockymtretail.com,West,Processing,Standard,299.93,Ground
+ORD058,2025-03-11,Great Plains Industrial,orders@greatplains.com,Midwest,Pending,Standard,849.89,Ground
+ORD059,2025-03-12,Coastal Builders LLC,orders@coastalbuilders.com,Southeast,Pending,Standard,549.90,Ground
+ORD060,2025-03-13,Steel City Manufacturing,supply@steelcity.com,Northeast,Pending,Express,1799.93,Air
+ORD061,2025-01-30,Phoenix Industries,orders@phoenix.com,West,Delivered,Standard,659.93,Ground
+ORD062,2025-02-03,Magnolia Office Park,admin@magnolia.com,South,Delivered,Standard,324.87,Ground
+ORD063,2025-02-08,Crystal Lake Hotels,purchasing@crystallake.com,Midwest,Delivered,Express,2699.94,Air
+ORD064,2025-02-10,Bayou Logistics Co,orders@bayoulog.com,South,Delivered,Standard,474.90,Ground
+ORD065,2025-02-17,Hudson Valley Corp,supply@hudsonvalley.com,Northeast,Delivered,Standard,1199.95,Ground
+ORD066,2025-02-19,Tundra Tech Systems,it@tundratech.com,Midwest,Delivered,Standard,999.97,Ground
+ORD067,2025-03-03,Mesa Verde Retail,orders@mesaverde.com,West,Shipped,Standard,424.89,Ground
+ORD068,2025-03-06,Ozark Industrial Ltd,orders@ozarkindustrial.com,South,Shipped,Express,699.90,Air
+ORD069,2025-03-08,Glacier Safety Co,orders@glaciersafety.com,West,Shipped,Standard,549.92,Ground
+ORD070,2025-03-10,Prairie Schools Network,supply@prairieschools.edu,Midwest,Processing,Standard,274.89,Ground
+ORD071,2025-03-11,Shoreline Medical Supply,orders@shorelinemed.com,Southeast,Processing,Express,849.93,Air
+ORD072,2025-03-12,Appalachian Corp,supply@appalachian.com,Northeast,Processing,Standard,1049.92,Ground
+ORD073,2025-03-14,Cascades Furniture Group,orders@cascadesfurn.com,West,Pending,Standard,1589.94,Ground
+ORD074,2025-03-15,Delta Medical Supply,orders@deltamed.com,South,Pending,Express,949.91,Air
+ORD075,2025-03-15,Keystone Industries,orders@keystone.com,Northeast,Pending,Standard,699.90,Ground
+ORD076,2025-01-15,Lone Star Logistics,orders@lonestar.com,South,Cancelled,Standard,449.97,Ground
+ORD077,2025-02-01,Pacific Rim Retail Inc,orders@pacificrim.com,West,Cancelled,Express,999.98,Air
+ORD078,2025-02-15,Great Lakes Manufacturing,supply@greatlakes.com,Midwest,Cancelled,Standard,374.91,Ground
+ORD079,2025-03-02,Tidewater Corp,orders@tidewater.com,Southeast,Cancelled,Standard,749.95,Ground
+ORD080,2025-03-16,High Country Suppliers,orders@highcountry.com,West,Pending,Standard,1299.93,Ground

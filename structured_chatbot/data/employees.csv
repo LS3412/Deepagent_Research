@@ -1,0 +1,26 @@
+employee_id,name,role,shift,zone_assigned,hire_date,hourly_rate,status
+E001,Marcus Johnson,Warehouse Manager,Day,All,2019-03-01,28.50,Active
+E002,Priya Sharma,Supervisor,Day,A,2020-06-15,22.00,Active
+E003,Carlos Rivera,Supervisor,Night,B,2021-01-20,22.00,Active
+E004,Anna Kowalski,Picker,Day,A,2022-03-10,16.50,Active
+E005,Derek Williams,Picker,Day,A,2022-05-20,16.50,Active
+E006,Fatima Al-Hassan,Picker,Day,B,2021-11-08,16.50,Active
+E007,Tom Chen,Picker,Night,B,2023-02-14,16.50,Active
+E008,Rachel Kim,Picker,Night,C,2023-04-01,16.50,Active
+E009,James O'Brien,Packer,Day,B,2021-07-19,17.00,Active
+E010,Nina Patel,Packer,Day,A,2022-09-05,17.00,Active
+E011,Samuel Okonkwo,Packer,Night,C,2023-06-12,17.00,Active
+E012,Elena Vasquez,Forklift Operator,Day,C,2020-11-30,19.00,Active
+E013,Brian Hughes,Forklift Operator,Night,C,2021-08-22,19.00,Active
+E014,Lisa Wong,Receiver,Day,All,2022-01-17,17.50,Active
+E015,Omar Hassan,Receiver,Day,All,2023-08-07,17.50,Active
+E016,Jessica Lee,Picker,Day,A,2023-09-01,16.50,Active
+E017,Omar Farooq,Picker,Night,B,2023-10-15,16.50,Active
+E018,Diana Torres,Packer,Day,C,2023-11-01,17.00,Active
+E019,Alex Murphy,Forklift Operator,Day,D,2024-01-08,19.00,Active
+E020,Keiko Yamamoto,Receiver,Night,All,2024-02-12,17.50,Active
+E021,Frank Russo,Picker,Day,B,2024-03-01,16.50,Active
+E022,Amira Hassan,Packer,Night,A,2024-04-15,17.00,Active
+E023,Tyler Brooks,Supervisor,Night,A,2024-06-01,22.00,Active
+E024,Sandra White,Picker,Day,C,2024-07-20,16.50,Active
+E025,Kevin O'Connor,Forklift Operator,Night,D,2024-09-01,19.00,Active

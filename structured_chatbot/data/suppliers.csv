@@ -1,0 +1,16 @@
+supplier_id,company_name,contact_name,email,country,lead_time_days,rating,payment_terms
+S001,TechSource Solutions,James Wong,james@techsource.com,China,14,4.5,Net 30
+S002,OfficeWorld Pro,Sarah Miller,sarah@officeworld.com,USA,7,4.8,Net 15
+S003,IndustrialParts Direct,Hans Mueller,hans@industrialparts.de,Germany,21,4.2,Net 45
+S004,SafetyFirst Inc,Emily Chen,emily@safetyfirst.ca,Canada,10,4.6,Net 30
+S005,ClearView Displays,Yuki Tanaka,yuki@clearview.co.kr,South Korea,18,4.3,Net 30
+S006,StrongBuild Hardware,Ravi Patel,ravi@strongbuild.jp,Japan,16,4.4,Net 30
+S007,QuickShip Supplies,Tom Brady,tom@quickship.com,USA,3,4.9,Net 15
+S008,PackagingPro,Lisa Green,lisa@packagingpro.com,USA,5,4.7,Net 30
+S009,GreenTech Manufacturing,Alice Dubois,alice@greentech.fr,France,12,4.3,Net 30
+S010,Pacific Office Supplies,Kevin Nakamura,kevin@pacofsup.com,USA,4,4.6,Net 15
+S011,Baltic Industrial Group,Piotr Kowalski,piotr@baltic.pl,Poland,25,4.1,Net 45
+S012,Comfort Furniture Co,Maria Santos,maria@comfortfurn.com,Brazil,30,4.0,Net 45
+S013,ProSafety Korea Ltd,Daniel Kim,daniel@prosafety.kr,South Korea,14,4.7,Net 30
+S014,QuickDrop Express,Amy Chen,amy@quickdrop.com,USA,2,5.0,Net 15
+S015,Nordic Ergonomics AB,Erik Lindqvist,erik@nordic.se,Sweden,20,4.5,Net 30
