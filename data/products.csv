@@ -1,0 +1,41 @@
+product_id,sku,name,category,unit_price,weight_kg,supplier_id,reorder_point,description
+P001,ELEC-001,Business Laptop 15in,Electronics,899.99,2.1,S001,10,High-performance business laptop with 16GB RAM and 512GB SSD
+P002,ELEC-002,27in 4K Monitor,Electronics,349.99,4.5,S005,8,4K UHD IPS monitor with USB-C docking support
+P003,ELEC-003,Mechanical Keyboard,Electronics,79.99,0.9,S001,15,Backlit mechanical keyboard with tactile switches
+P004,ELEC-004,Wireless Ergonomic Mouse,Electronics,29.99,0.2,S001,20,Ergonomic wireless mouse with adjustable DPI
+P005,ELEC-005,10in Android Tablet,Electronics,299.99,0.5,S005,12,Android 13 tablet with stylus and 128GB storage
+P006,ELEC-006,USB-C Hub 7-Port,Electronics,49.99,0.3,S001,25,7-port USB-C hub with HDMI and SD card reader
+P007,ELEC-007,HD Webcam 1080p,Electronics,89.99,0.4,S001,10,1080p webcam with built-in mic and auto-focus
+P008,ELEC-008,1TB NVMe SSD Drive,Electronics,109.99,0.1,S001,20,1TB PCIe NVMe solid state drive
+P009,OFF-001,Heavy Duty Stapler,Office,24.99,0.8,S002,30,Heavy duty desktop stapler handles up to 210 sheets
+P010,OFF-002,A4 Paper Ream 500 Sheets,Office,9.99,2.5,S002,100,Premium white A4 80gsm copy paper
+P011,OFF-003,Ballpoint Pen Box 50,Office,14.99,0.4,S007,50,Box of 50 blue ballpoint pens medium tip
+P012,OFF-004,Magnetic Whiteboard 4x3ft,Office,129.99,5.2,S002,5,Magnetic dry-erase whiteboard with aluminum frame and tray
+P013,OFF-005,Ergonomic Desk Chair,Office,299.99,12.0,S002,3,Adjustable office chair with lumbar support and armrests
+P014,OFF-006,Printer Ink Multipack,Office,39.99,0.5,S007,20,4-colour inkjet multipack compatible with major printer brands
+P015,OFF-007,Hardcover Notebook A5,Office,12.99,0.4,S007,40,A5 hardcover ruled notebook 200 pages
+P016,IND-001,Hard Hat Class E,Industrial,34.99,0.5,S004,20,ANSI Class E electrical-rated safety hard hat
+P017,IND-002,Steel-Toe Work Boots,Industrial,89.99,1.8,S006,15,ASTM F2413 steel-toe work boots sizes 6-13
+P018,IND-003,High-Visibility Safety Vest,Industrial,19.99,0.3,S004,25,ANSI 107 Class 2 high-visibility reflective vest
+P019,IND-004,Cut-Resistant Work Gloves,Industrial,24.99,0.4,S004,30,ANSI Level A4 cut-resistant work gloves sizes S-XL
+P020,IND-005,Anti-Fog Safety Glasses,Industrial,14.99,0.1,S004,40,ANSI Z87.1 certified anti-fog safety glasses
+P021,ELEC-009,Adjustable Aluminum Laptop Stand,Electronics,34.99,0.7,S015,20,Ergonomic laptop stand adjustable 4-15in height supports up to 22lbs
+P022,ELEC-010,USB-C Cable 6ft 3-Pack 100W,Electronics,19.99,0.2,S014,30,Braided 100W USB-C to USB-C fast-charging cables 3-pack 6ft
+P023,ELEC-011,Wireless Noise-Canceling Headset,Electronics,149.99,0.3,S001,10,Over-ear ANC wireless headset 30hr battery USB dongle and 3.5mm jack
+P024,ELEC-012,20000mAh Portable Charger 65W,Electronics,49.99,0.3,S001,15,High-capacity power bank 65W USB-C PD dual USB-A outputs
+P025,ELEC-013,Smart Dimmable LED Desk Lamp,Electronics,59.99,0.8,S005,12,Touch-dimmer LED lamp USB-A charging port 3 color temperature modes
+P026,OFF-008,4-Drawer Locking Filing Cabinet,Office,189.99,25.0,S012,3,Locking 4-drawer letter-size steel filing cabinet charcoal finish
+P027,OFF-009,Mesh Desk Organizer 5-Piece Set,Office,39.99,1.2,S010,20,5-piece mesh desktop organizer letter tray pen cup and drawer
+P028,OFF-010,Sticky Notes Value Pack 12,Office,8.99,0.3,S010,60,12-pack 3x3in sticky notes 4 assorted colors 100 sheets per pad
+P029,OFF-011,Multi-Purpose Scissors 3-Pack,Office,12.99,0.2,S010,40,3-pack stainless steel scissors small medium large soft grip handles
+P030,OFF-012,Wireless Bluetooth Label Maker,Office,69.99,0.4,S002,10,Bluetooth label maker smartphone app control iOS and Android compatible
+P031,IND-006,Over-Ear Noise Muffs 25dB NRR,Industrial,29.99,0.3,S013,25,ANSI S3.19 certified over-ear hearing protectors 25dB NRR foldable
+P032,IND-007,Heavy-Duty Gel Knee Pads,Industrial,22.99,0.5,S013,20,Professional gel-cushioned knee pads adjustable buckle straps sizes S-XL
+P033,IND-008,N95 Respirator Masks Box of 20,Industrial,18.99,0.4,S004,40,NIOSH-approved N95 particulate respirator masks box of 20 latex-free
+P034,IND-009,Chemical-Resistant Nitrile Gloves 12-Pair,Industrial,18.99,0.3,S004,30,Heavy-duty nitrile chemical resistant gloves box of 12 pairs sizes S-XL
+P035,IND-010,Full-Body Safety Harness Fall Arrest,Industrial,129.99,1.5,S013,8,ANSI Z359 compliant full-body harness 5-point adjustment dorsal D-ring
+P036,FURN-001,Electric Height-Adjust Standing Desk 60in,Furniture,599.99,42.0,S015,2,60x30in 3-stage dual-motor electric standing desk 4-program memory keypad
+P037,FURN-002,Heavy-Duty Dual Monitor Arm,Furniture,89.99,3.2,S015,8,Full-motion dual monitor arm fits 2x27in up to 17.6lbs each VESA 75/100
+P038,FURN-003,Under-Desk Cable Management Tray,Furniture,24.99,0.6,S010,15,Clamp-mount under-desk cable tray 16in holds up to 11lbs with organizer
+P039,FURN-004,4-Tier Rolling Steel Storage Cart,Furniture,79.99,6.5,S012,10,4-shelf rolling cart steel mesh locking caster wheels 66lb per shelf
+P040,FURN-005,Heavy-Duty Plastic Folding Table 6ft,Furniture,89.99,9.0,S012,6,6ft x 30in fold-in-half plastic table 750lb capacity height-adjustable

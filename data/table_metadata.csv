@@ -1,0 +1,9 @@
+table_name,business_domain,data_owner,update_frequency,sensitivity,approx_row_count,last_refresh,has_pii,notes,tags
+products,Inventory,Inventory Manager,Daily,Internal,40,2025-05-01,false,Master product catalog with SKU pricing weight supplier and reorder levels. Now includes Furniture category.,"catalog,pricing,reorder,sku"
+inventory,Operations,Warehouse Supervisor,Real-time,Internal,40,2025-05-04,false,Live stock levels per product-location slot. Compare quantity_on_hand vs min_stock to find low-stock alerts.,"stock,replenishment,on-hand,alerts"
+orders,Sales,Sales Manager,Real-time,Confidential,80,2025-05-04,true,Customer purchase order pipeline across all lifecycle stages. customer_email is PII — avoid exposing in aggregates.,"revenue,fulfillment,orders,pipeline"
+order_items,Sales,Sales Manager,Real-time,Confidential,194,2025-05-04,false,Line-item detail for every order. Use quantity*unit_price*(1-discount_pct/100) for net revenue per line.,"revenue,products,line-items,discount"
+suppliers,Procurement,Procurement Manager,Weekly,Internal,15,2025-04-28,false,Vendor master with country lead-times ratings and payment terms. rating scale is 1.0 to 5.0.,"vendors,procurement,sourcing,lead-time"
+locations,Operations,Warehouse Supervisor,Weekly,Internal,30,2025-04-30,false,Physical warehouse bin map. Zone A=Electronics Zone B=Office Zone C=Industrial Zone D=Receiving-Staging.,"warehouse,bins,zones,layout"
+employees,HR,HR Manager,Monthly,Restricted,25,2025-04-15,true,Warehouse staff roster with roles shifts and pay rates. hourly_rate is sensitive — do not expose individually without authorization.,"staff,hr,payroll,shifts"
+shipments,Logistics,Logistics Manager,Real-time,Internal,48,2025-05-04,false,Outbound carrier shipment records. actual_delivery is None for in-transit shipments. Use shipped_date to estimated_delivery gap for SLA analysis.,"delivery,logistics,tracking,sla"
